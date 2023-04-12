@@ -2,7 +2,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 // Import App component
-import App from "./App";
+import MyApp from "./App";
 
 // 2. Get a Reference to the div with ID root
 const element = document.getElementById("root");
@@ -11,4 +11,4 @@ const element = document.getElementById("root");
 const root = ReactDOM.createRoot(element);
 
 // 4. Show the component on the screen
-root.render(<App />);
+root.render(<MyApp />);
